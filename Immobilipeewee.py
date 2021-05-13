@@ -1,7 +1,8 @@
 import sqlite3
+import peewee
 
-conn = sqlite3.connect('Agenzia.db')
-#conn.execute('CREATE TABLE immobile (immobileid INTEGER PRIMARY KEY, rifprop, indirizzo, prezzo, catalogoid)')
+#conn = sqlite3.connect('Agenzia.db')
+#conn.execute('CREATE TABLE immobile (immobileid INTEGER PRIMARY KEY, rifprop, indirizzo, prezzo, catalogo)')
 #conn.execute('CREATE TABLE Catalogo (catalogoid INTEGER PRIMARY KEY, nome, prezzomin, prezzomax)')
 
 
